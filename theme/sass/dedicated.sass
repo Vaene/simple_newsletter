@@ -1,0 +1,56 @@
+@import common
+
+.beacon
+  width: 1px
+  height: 1px
+  opacity: 0
+
+.lead-in-image,
+.content .body,
+  +g-nl-padding-topbottom
+  text-align: center
+
+.content h1,
+.cta,
+  +g-nl-padding-leftright
+  text-align: center
+
+.lead-in-image
+  img
+    display: block
+    width: 100%
+
+.lead-blurb
+  color: white
+  font-size: 3px
+
+h1
+  margin: 0
+  color: $color-pink
+  font-family: "Arial Black", "Arial-BoldMT"
+  font-size: 30px
+
+.body
+  font-family: "Georgia"
+  line-height: 24px
+  font-size: 16px
+  p:first-of-type
+    margin-top: 0
+  p:last-of-type
+    margin-bottom: 0
+
+.cta
+  margin-bottom: 10px
+  a
+    font-family: "Arial Black", "Arial-BoldMT"
+    font-size: 16px
+    text-transform: uppercase
+    padding: 16px 20px
+    +border-radius(3px)
+    text-decoration: none
+    color: white
+    display: inline-block
+    &.pink
+      background: $color-pink
+    &.blue
+      background: $color-blue

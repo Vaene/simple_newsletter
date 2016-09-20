@@ -1,0 +1,36 @@
+/* line 1, ../sass/daily_a.sass */
+.beacon {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+/* line 6, ../sass/daily_a.sass */
+.desc {
+  font-family: arial, sans-serif;
+}
+/* line 8, ../sass/daily_a.sass */
+.desc p {
+  display: inline;
+}
+
+/* line 12, ../sass/daily_a.sass */
+.others-node .node-wrapper {
+  margin-bottom: 30px;
+}
+
+/* line 15, ../sass/daily_a.sass */
+.template-preview-switcher {
+  position: fixed;
+  top: 0;
+  background: #c5c5c5;
+  padding: 5px;
+}
+/* line 20, ../sass/daily_a.sass */
+.template-preview-switcher a {
+  display: block;
+  font-size: 10px;
+  color: black;
+  font-family: "Arial", "ArialMT";
+  line-height: 200%;
+}

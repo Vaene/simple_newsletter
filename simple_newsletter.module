@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file
+ * Code for the simple_newsletter feature.
+ */
+
+define('GR8IST_NEWSLETTER_LOGO_URL', 'http://media.sailthru.com/35b/1k0/7/1/5776ad6f266a0.png');
+define('GR8IST_NEWSLETTER_SOCIAL_FACEBOOK_IMG_URL', 'http://media.sailthru.com/35b/1jz/c/7/5665f0bf29ee1.png');
+define('GR8IST_NEWSLETTER_SOCIAL_PINTEREST_IMG_URL', 'http://media.sailthru.com/35b/1jz/c/7/5665f0bf6b317.png');
+define('GR8IST_NEWSLETTER_SOCIAL_INSTAGRAM_IMG_URL', 'http://media.sailthru.com/35b/1jz/c/7/5665f71a3acad.png');
+define('GR8IST_NEWSLETTER_SOCIAL_SNAPCHAT_IMG_URL', 'http://media.sailthru.com/35b/1k0/7/1/5776b04150deb.png');
+
+include_once 'simple_newsletter.features.inc';
+include_once 'includes/simple_newsletter.form.inc';
+include_once 'includes/simple_newsletter.theme.inc';
+include_once 'includes/simple_newsletter.pages.inc';
+include_once 'includes/simple_newsletter.menu.inc';
+include_once 'includes/simple_newsletter.mail.inc';

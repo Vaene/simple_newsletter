@@ -1,0 +1,15 @@
+@import grid/grid
+@import partials/00-variables/all
+@import partials/01-mixins/all
+
+.preview-desc
+  +g-row
+  iframe
+    +g-mt
+    +g-mb
+    width: 100%
+    min-height: 700px
+    border: 1px solid $greatist-mediumgray
+    padding-left: 10px
+    padding-right: 10px
+    +box-sizing(border-box)

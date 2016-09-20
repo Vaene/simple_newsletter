@@ -1,0 +1,265 @@
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-move,
+.category-Move {
+  color: #f26630;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-eat,
+.category-Eat {
+  color: #01b294;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-grow,
+.category-Grow {
+  color: #f4c915;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-play,
+.category-Play {
+  color: #624683;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-discover,
+.category-Discover {
+  color: #6ccacd;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-connect,
+.category-Connect {
+  color: #b13183;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-fitness,
+.category-Fitness {
+  color: #ef3e42;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-health,
+.category-Health {
+  color: #8dc63f;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-happiness,
+.category-Happiness {
+  color: #d4b820;
+}
+
+/* line 16, ../sass/_common.sass */
+body {
+  margin: 0;
+  font-family: "Arial", "ArialMT";
+}
+
+/* line 20, ../sass/_common.sass */
+.wrapper {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+}
+
+/* line 25, ../sass/_common.sass */
+.social-links a {
+  display: inline-block;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  padding: 6px;
+  margin: 0 10px;
+}
+/* line 30, ../sass/_common.sass */
+.social-links a img {
+  height: auto;
+  display: block;
+}
+
+/* line 34, ../sass/_common.sass */
+.header {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px 0;
+  padding-bottom: 14px;
+}
+/* line 39, ../sass/_common.sass */
+.header table td {
+  padding: 0;
+}
+/* line 41, ../sass/_common.sass */
+.header table td:first-of-type {
+  text-align: left;
+}
+/* line 43, ../sass/_common.sass */
+.header table td:last-of-type {
+  text-align: right;
+  vertical-align: bottom;
+}
+/* line 46, ../sass/_common.sass */
+.header table .header-link img {
+  width: 70%;
+  height: auto;
+  display: block;
+}
+/* line 51, ../sass/_common.sass */
+.header table .social-links a {
+  background: black;
+  margin: 0 5px;
+}
+/* line 54, ../sass/_common.sass */
+.header table .social-links a:last-of-type {
+  margin-right: 0;
+}
+
+/* line 57, ../sass/_common.sass */
+.content {
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 20px;
+  background: white;
+}
+
+/* line 62, ../sass/_common.sass */
+.footer {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px 0;
+  padding-top: 0;
+  text-align: center;
+  line-height: 140%;
+}
+/* line 68, ../sass/_common.sass */
+.footer .social-links {
+  padding: 20px;
+}
+/* line 70, ../sass/_common.sass */
+.footer .social-links a {
+  height: 14px;
+  width: 14px;
+}
+/* line 73, ../sass/_common.sass */
+.footer .social-links a.facebook {
+  background: #3b5998;
+}
+/* line 75, ../sass/_common.sass */
+.footer .social-links a.pinterest {
+  background: #cf2028;
+}
+/* line 77, ../sass/_common.sass */
+.footer .social-links a.instagram {
+  background: #8c2f9f;
+}
+/* line 79, ../sass/_common.sass */
+.footer .social-links a.snapchat {
+  background: #ffd525;
+}
+/* line 81, ../sass/_common.sass */
+.footer .copyright {
+  font-weight: bold;
+}
+/* line 83, ../sass/_common.sass */
+.footer .address {
+  font-size: 0.6rem;
+  text-align: center;
+  color: #c5c5c5;
+  margin-bottom: 0.5rem;
+}
+/* line 89, ../sass/_common.sass */
+.footer .unsub a {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 93, ../sass/_common.sass */
+.separator {
+  background: black;
+  height: 2px;
+  margin: auto;
+}
+
+/* line 98, ../sass/_common.sass */
+.template-preview-switcher {
+  position: fixed;
+  top: 0;
+  background: #c5c5c5;
+  padding: 5px;
+}
+/* line 103, ../sass/_common.sass */
+.template-preview-switcher a {
+  display: block;
+  font-size: 10px;
+  color: black;
+  font-family: "Arial", "ArialMT";
+  line-height: 200%;
+}
+
+/* line 3, ../sass/daily_b.sass */
+.beacon {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+/* line 8, ../sass/daily_b.sass */
+.lead-blurb {
+  color: white;
+  font-size: 3px;
+}
+
+/* line 12, ../sass/daily_b.sass */
+.card {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* line 16, ../sass/daily_b.sass */
+.card .partner {
+  color: #8d30a0;
+  font-size: 18px;
+  font-family: "Times", "Times New Roman", "TimesNewRomanPS-BoldItalicMT";
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 23, ../sass/daily_b.sass */
+.card a {
+  text-decoration: none;
+  color: black;
+}
+/* line 26, ../sass/daily_b.sass */
+.card a img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+/* line 30, ../sass/daily_b.sass */
+.card a h2 {
+  font-family: "Arial Black", "Arial-BoldMT";
+  font-size: 22px;
+  text-align: center;
+  margin: 20px 0;
+  margin-top: 0;
+  line-height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 39, ../sass/daily_b.sass */
+.card a.cta {
+  text-decoration: none;
+  color: #f73a6f;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+}
+/* line 45, ../sass/daily_b.sass */
+.card .description {
+  font-family: "Georgia";
+  margin-bottom: 20px;
+  line-height: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

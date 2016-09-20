@@ -1,0 +1,257 @@
+/**
+ * Profound Grid
+ *
+ * Built in Sass (SCSS) this responsive/adaptive grid supports both fixed and fluid layouts,
+ * relative and fixed gutters, as well as your choice of semantic markup or generic '.grid-x' classes.
+ *
+ * The biggest difference to other grid systems is the use of negative margins for column
+ * placements, avoiding the subpixel rounding issues that usually break/uglify fluid layouts
+ * in some browsers.
+ *
+ * Nested columns are supported too, without having to reset the grid on each level.
+ *
+ * Credits/Inspiration:
+ * -------------------
+ * Semantic Grid: http://www.semantic.gs
+ * Susy: http://susy.oddbird.net
+ * Negative Grid: http://chrisplaneta.com/freebies/negativegrid-fluid-css-grid-by-chris-planeta/
+ *
+ * @author Profound Creative Studio
+ * @url http://www.profoundgrid.com
+ * @url http://www.weareprofound.com
+ */
+/**
+ * Clearfix
+ */
+/**
+ * Legacy Clearfix
+ */
+/**
+ * Establish the grid-containing element.
+ */
+/**
+ * Align an element to the grid.
+ */
+/**
+ * Apply to any column to make it the last one of the current row.
+ */
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-move,
+.category-Move {
+  color: #f26630;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-eat,
+.category-Eat {
+  color: #01b294;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-grow,
+.category-Grow {
+  color: #f4c915;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-play,
+.category-Play {
+  color: #624683;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-discover,
+.category-Discover {
+  color: #6ccacd;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-connect,
+.category-Connect {
+  color: #b13183;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-fitness,
+.category-Fitness {
+  color: #ef3e42;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-health,
+.category-Health {
+  color: #8dc63f;
+}
+
+/* line 25, ../../../../../../themes/greatist2x/sass/partials/00-variables/_greatist_categories.sass */
+.category-happiness,
+.category-Happiness {
+  color: #d4b820;
+}
+
+/* line 51, ../../../../../../themes/greatist2x/sass/partials/01-mixins/_custom.sass */
+h3.articleheader {
+  font-size: 1.7rem;
+  margin: 16px 0;
+  line-height: 140%;
+  font-family: "TiemposText SemiBold";
+}
+@media (max-width: 767px) {
+  /* line 51, ../../../../../../themes/greatist2x/sass/partials/01-mixins/_custom.sass */
+  h3.articleheader {
+    font-size: 1.5rem;
+  }
+}
+
+/* line 59, ../../../../../../themes/greatist2x/sass/partials/01-mixins/_custom.sass */
+h4.articleheader, h5.articleheader {
+  font-family: "TiemposText SemiBold";
+  margin: 1em 0 0.1em;
+}
+
+/* line 63, ../../../../../../themes/greatist2x/sass/partials/01-mixins/_custom.sass */
+h5.articleheader {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+/* line 5, ../sass/simple_newsletter.sass */
+.preview-desc {
+  -moz-box-sizing: initial;
+  -webkit-box-sizing: initial;
+  box-sizing: initial;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1188px;
+  padding: 0 24px;
+}
+/* line 131, ../../../../../../themes/greatist2x/sass/partials/01-mixins/_custom.sass */
+.preview-desc:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 0) and (max-width: 480px) {
+  /* line 5, ../sass/simple_newsletter.sass */
+  .preview-desc {
+    width: 99.96%;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 5, ../sass/simple_newsletter.sass */
+  .preview-desc {
+    width: 99.96%;
+  }
+}
+@media (min-width: 767px) and (max-width: 979px) {
+  /* line 5, ../sass/simple_newsletter.sass */
+  .preview-desc {
+    width: 732px;
+  }
+}
+@media (min-width: 979px) and (max-width: 1188px) {
+  /* line 5, ../sass/simple_newsletter.sass */
+  .preview-desc {
+    width: 924px;
+  }
+}
+@media (min-width: 1188px) {
+  /* line 5, ../sass/simple_newsletter.sass */
+  .preview-desc {
+    width: 1140px;
+  }
+}
+@media (min-width: 979px) and (max-width: 1188px) {
+  /* line 5, ../sass/simple_newsletter.sass */
+  .preview-desc {
+    padding: 0 16px;
+    max-width: 964px;
+  }
+}
+@media (min-width: 767px) and (max-width: 979px) {
+  /* line 5, ../sass/simple_newsletter.sass */
+  .preview-desc {
+    padding: 0 12px;
+    margin: 0 auto;
+    max-width: 762px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 5, ../sass/simple_newsletter.sass */
+  .preview-desc {
+    padding: 0 3%;
+    margin: 0 auto;
+    max-width: 94%;
+  }
+}
+/* line 7, ../sass/simple_newsletter.sass */
+.preview-desc iframe {
+  width: 100%;
+  min-height: 700px;
+  border: 1px solid #c5c5c5;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 1188px) {
+  /* line 7, ../sass/simple_newsletter.sass */
+  .preview-desc iframe {
+    margin-top: 24px;
+  }
+}
+@media (min-width: 979px) and (max-width: 1188px) {
+  /* line 7, ../sass/simple_newsletter.sass */
+  .preview-desc iframe {
+    margin-top: 16px;
+  }
+}
+@media (min-width: 767px) and (max-width: 979px) {
+  /* line 7, ../sass/simple_newsletter.sass */
+  .preview-desc iframe {
+    margin-top: 12px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 7, ../sass/simple_newsletter.sass */
+  .preview-desc iframe {
+    margin-top: 3%;
+  }
+}
+@media (min-width: 0) and (max-width: 480px) {
+  /* line 7, ../sass/simple_newsletter.sass */
+  .preview-desc iframe {
+    margin-top: 3%;
+  }
+}
+@media (min-width: 1188px) {
+  /* line 7, ../sass/simple_newsletter.sass */
+  .preview-desc iframe {
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 979px) and (max-width: 1188px) {
+  /* line 7, ../sass/simple_newsletter.sass */
+  .preview-desc iframe {
+    margin-bottom: 16px;
+  }
+}
+@media (min-width: 767px) and (max-width: 979px) {
+  /* line 7, ../sass/simple_newsletter.sass */
+  .preview-desc iframe {
+    margin-bottom: 12px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 7, ../sass/simple_newsletter.sass */
+  .preview-desc iframe {
+    margin-bottom: 3%;
+  }
+}
+@media (min-width: 0) and (max-width: 480px) {
+  /* line 7, ../sass/simple_newsletter.sass */
+  .preview-desc iframe {
+    margin-bottom: 3%;
+  }
+}
